@@ -1,0 +1,502 @@
+/* style the nav bar*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 40px; /* Adjust as per your logo */
+    margin-right: 10px;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin-right: 15px;
+}
+
+.navbar .nav-links li:last-child {
+    margin-right: 0;
+}
+
+.navbar .nav-links .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links .nav-link:hover {
+    background-color: #DFD213;
+    border-radius: 5px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.auth-buttons button:hover {
+    background-color: #DFD213 ;
+    border-radius: 5px;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+    max-width: 300px;
+    border-radius: 5px;
+    left: 100%;
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.auth-form {
+    display: none;
+}
+
+.auth-form h2 {
+    margin-bottom: 20px;
+}
+
+.auth-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 270px;
+}
+
+.auth-form label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.auth-form button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: yellow;
+    border-radius: 5px;
+}
+span{
+    font-size: 25px;
+    color: yellow;
+    font-family: cursive;
+}
+/* Main content styles-home page */
+ }
+ .homy{
+    display: flex;
+    }
+ .well{
+    font-family:cursive;
+    color: black;
+    padding: 270px 450px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 0px;
+
+
+ }
+ .homi{
+    background-image: url(image/bg5.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 1550px;
+ }
+ 
+
+ /*About page.....*/
+ .container h2{
+    font-size: 70px;
+    color: darkred;
+    padding-left: 600px;
+    font-family: cursive;
+    padding-left: 50px;
+
+ }
+ .container p{
+    font-size: 25px;
+    color:black;
+     padding-left: 100px;
+ }
+ .container{
+    background-image: url('image/back2.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 1500px;
+ }
+ .caa{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+ }
+
+ }
+ /*contact us page*/
+ .box{
+    background-image:none;
+    background-size: cover;
+ }
+ .container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/*book a TABLE*/
+
+main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.book-now-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.book-now-container {
+    text-align: left;
+}
+
+.book-now-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.book-now-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="time"],
+form input[type="number"],
+form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f57c00;
+}
+
+
+/*menu----*/
+.menu-container {
+            width: 80%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .menu-item {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .menu-item .content {
+            padding: 15px;
+            display: flex;
+        }
+        .menu-item .name {
+            font-size: 1.25em;
+            margin-bottom: 5px;
+        }
+        .menu-item .price {
+            color: #888;
+            margin-bottom: 10px;
+            margin-left: 60px;
+        }
+        .menu-item .description {
+            font-size: 0.9em;
+            color: #555;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .price{
+            padding-top: 60px;
+           
+        }
+
+
+/*oder page*/
+    .order-container {
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .order-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: red;
+            font-size: 35px;
+        }
+        .order-form {
+            display: flex;
+            flex-direction: column;
+            width: 450px;
+            display: block;
+            margin: auto;
+        }
+        .order-form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .order-form input, .order-form select, .order-form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .order-form input[type="checkbox"] {
+            margin-top: 10px;
+
+        }
+        .order-form button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 60px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 150px;
+            display: block;
+            margin: auto;
+
+        }
+        .order-form button:hover {
+            background-color: #218838;
+        }
+
+/* Footer styles */
+.footer {
+    background-color: #333; /* Darker background color for footer */
+    color: #fff; /* Text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -280px;
+    width:1550px;
+    height: 100px;
+}
+
+/* Footer left section */
+.footer-left {
+    text-align: left;
+}
+
+/* Footer right section */
+.footer-right {
+    text-align: right;
+}
+
+/* Footer paragraph styles */
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* Footer link styles */
+.footer a {
+    color: #ff0; /* Yellow color for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Social icons */
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+} 
+
